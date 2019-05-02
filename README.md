@@ -1,5 +1,7 @@
 # GitHub Repo Label Management
 
+[![Build Status](https://cloud.drone.io/api/badges/MattKempfert/github-repo-labels/status.svg)](https://cloud.drone.io/MattKempfert/github-repo-labels)
+
 This repository contains GoLang scripts for managing repository labels.
 
 ## Feature Requests/Issue Reporting
