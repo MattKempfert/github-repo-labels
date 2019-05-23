@@ -1,8 +1,10 @@
+
+---
 pipeline:
-  test-and-build:
-    image: golang:latest
-    environment:
-      CGO_ENABLED: '0'
-      GOOS: linux
+  syntax-test:
+    when:
+      event: push
+    image: python:3
     commands:
-      - go version
+      - pip3 install -r requirements.txt
+      - pylint main.py
